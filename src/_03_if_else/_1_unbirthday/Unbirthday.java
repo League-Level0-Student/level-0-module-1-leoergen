@@ -10,6 +10,7 @@ public class Unbirthday {
 		}
 		else {
 			JOptionPane.showMessageDialog(null, "Merry UNbirthday");
+			
 		}
 	}
 }
