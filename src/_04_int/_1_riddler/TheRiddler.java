@@ -21,10 +21,27 @@ if( input.equals("a coffin")) {
 	score++;
 }
 		// 5. Otherwise, say "wrong" and tell them the answer
-
+else{
+	JOptionPane.showMessageDialog(null, "not quite!");
+}
 		// 6. Add some more riddles
-
+ input = JOptionPane.showInputDialog(null, "What can be seen once in a minute, twice in a moment, and never in a thousand years?"); 
+if( input.equals("m")) {
+	JOptionPane.showMessageDialog(null, "Correct!");
+	score++;
+}
+else {
+	JOptionPane.showMessageDialog(null, "not quite!");
+}
+input = JOptionPane.showInputDialog(null, "I am not alive yet I have five fingers. What am I?");
+if(input.equals("a glove")) {
+JOptionPane.showMessageDialog(null, "Correct!");
+}
+else {
+	JOptionPane.showInputDialog(null, "not quite!");
+}
 		// 2. Make a pop up to show the score.
+JOptionPane.showMessageDialog(null,"score:"+score);
 		
 	}
 }
