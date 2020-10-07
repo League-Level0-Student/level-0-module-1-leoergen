@@ -36,6 +36,7 @@ else {
 input = JOptionPane.showInputDialog(null, "I am not alive yet I have five fingers. What am I?");
 if(input.equals("a glove")) {
 JOptionPane.showMessageDialog(null, "Correct!");
+score++;
 }
 else {
 	JOptionPane.showInputDialog(null, "not quite!");
